@@ -23,5 +23,12 @@
 		</constructor-arg>
 	</bean>
 	
+	<bean id="productService2" class="model.ProductService2">
+		<constructor-arg>
+			<bean class="model.dao.ProductDAOJdbc">
+				<constructor-arg ref="dataSource"></constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
 	
 </beans>
