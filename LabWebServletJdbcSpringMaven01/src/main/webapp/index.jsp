@@ -13,10 +13,11 @@
 
 
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
+
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
+<h3><a href="<c:url value="/pages/product2.jsp" />">chick me</a></h3>
 
-<H1>第3次 commit修改</H1>
-
+<h4>GIT測試第4次</h4>  
 
 </body>
 </html>
